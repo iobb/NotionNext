@@ -42,11 +42,17 @@ const Footer = ({ title }) => {
         <br />
         <h1>{title}</h1>
         <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>
-          Powered by{' '}
+       <a
+            href='https://icp.gov.moe/?keyword=20269990'
+            className='underline '>
+            萌ICP备20269990号
+          </a>
+    <br />
+          By{' '}
           <a
             href='https://github.com/tangly1024/NotionNext'
             className='underline '>
-            NotionNext {siteConfig('VERSION')}
+            NotionNext
           </a>
           .
         </span>
